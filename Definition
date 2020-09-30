@@ -1,0 +1,10 @@
+def ab(x,y):
+    z1= (x+y)
+    z2= (x*y)
+    z3= (x/y)
+    print(z1, z2, z3, sep='\n')
+ab(5,5)
+
+
+print(z1, z2, z3, sep='\n') prints in 3 lines
+print(z1, z2, z3)           prints in 1 line
